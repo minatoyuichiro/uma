@@ -1,0 +1,1 @@
+{"name": "uma — 競馬シミュレーター（合成データ）", "short_name": "uma", "start_url": "./", "display": "standalone", "background_color": "#0e1116", "theme_color": "#0e1116", "icons": [{"src": "static/icon.svg", "sizes": "any", "type": "image/svg+xml"}]}

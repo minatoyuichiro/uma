@@ -1,0 +1,41 @@
+{
+ "origin": {
+  "lat": 32.8062,
+  "lon": 130.7058,
+  "name": "熊本城 大天守（おおよそ）"
+ },
+ "axes": "x=東(m) y=北(m) 高さ=標高(m)。画像の上が北",
+ "credit": "地理院タイル（全国最新写真（シームレス）・標高タイル）を加工して作成（国土地理院）",
+ "layers": {
+  "near": {
+   "half_m": 2000.0,
+   "grid": 257,
+   "heights": "near_h.bin",
+   "photo": "near.jpg",
+   "h_min": 3.049999952316284,
+   "h_max": 131.25999450683594
+  },
+  "far": {
+   "half_m": 10000.0,
+   "grid": 201,
+   "heights": "far_h.bin",
+   "photo": "far.jpg",
+   "h_min": 0.0,
+   "h_max": 668.3300170898438
+  }
+ },
+ "trees": {
+  "file": "trees.bin",
+  "count": 13203,
+  "layout": "i16[n][2] (東m, 北m)"
+ },
+ "tenshu_elev_m": 53.2400016784668,
+ "buildings": {
+  "file": "bldg.bin",
+  "count": 25545,
+  "radius_m": 2000.0,
+  "quant_m": 0.25,
+  "layout": "u32 n, u32 npts, i16[n][2] (地面の標高×10, 高さ×10), i16[npts][2] (東/Q, 北/Q), u8[n] 点の数",
+  "credit": "3D都市モデル（Project PLATEAU）熊本市（2022年度）（国土交通省）を加工して作成"
+ }
+}
